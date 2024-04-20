@@ -43,7 +43,7 @@ import com.example.mentormatching.R
             Column(
             ) {
 
-                // header
+                // logo
                 Column(
                     horizontalAlignment = Alignment.CenterHorizontally,
                     modifier = Modifier
@@ -64,7 +64,7 @@ import com.example.mentormatching.R
                 horizontalAlignment = Alignment.CenterHorizontally,
                 modifier = Modifier
                     .fillMaxWidth()
-                    .height(450.dp)
+                    .height(500.dp)
             )
             {
 
@@ -89,7 +89,7 @@ import com.example.mentormatching.R
                     }
 
                 )
-                Spacer(modifier = Modifier.height(15.dp))
+                Spacer(modifier = Modifier.height(25.dp))
 
                 TextField(
                     modifier = Modifier
