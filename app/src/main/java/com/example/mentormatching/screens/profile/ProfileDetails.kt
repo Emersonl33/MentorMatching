@@ -61,7 +61,7 @@ fun UserDetailedProfile(navController: NavController) {
         Row(
             modifier = Modifier
                 .align(Alignment.TopStart)
-                .offset(0.dp, -29.dp)
+                .offset(0.dp, (-29).dp)
         )
         {
             Image(painter = painterResource(id = R.drawable.logo),

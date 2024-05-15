@@ -1,3 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_name">MentorMatching</string>
+    <string name="login">Entrar</string>
+    <string name="email">Endereço de Email</string>
+    <string name="password">Digite sua senha</string>
+    <string name="signUp">Clique aqui para abrir sua conta!</string>
+
+    <string name="name">Nome</string>
+    <string name="OcupationArea">Digite Mentor ou Mentorado</string>
+    <string name="Confirmpassword">Confirme sua senha</string>
+
+    <string name="Register">Registrar</string>
+
+    <string name="already"> Já possui uma conta? </string>
+
+
 </resources>
