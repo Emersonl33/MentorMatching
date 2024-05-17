@@ -1,5 +1,6 @@
 package com.example.mentormatching
-import HomePageScreen
+
+
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -12,12 +13,20 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.example.mentormatching.screens.SignUpScreen
+import com.example.mentormatching.screens.HomeApp
+import com.example.mentormatching.screens.login.LoginScreen
+import com.example.mentormatching.screens.profile.PreferencesScreen
+import com.example.mentormatching.screens.signup.CompletePerfil
+import com.example.mentormatching.screens.signup.RegisterScreen
 import com.example.mentormatching.ui.theme.MentorMatchingTheme
+import com.google.firebase.FirebaseApp
 
+private const val TAG = "MainActivity"
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        FirebaseApp.initializeApp(this)
+
         setContent {
             MentorMatchingTheme {
                 Surface(
@@ -29,11 +38,20 @@ class MainActivity : ComponentActivity() {
                         navController = navController,
                         startDestination = "login"
                     ) {
-                        composable(route = "login") {
-                            HomePageScreen(navController)
+                        composable(route = "home") {
+                            HomeApp(navController)
                         }
-                        composable(route = "signUp") {
-                            SignUpScreen(navController)
+                        composable(route = "login") {
+                            LoginScreen(navController)
+                        }
+                        composable(route = "register") {
+                            RegisterScreen(navController)
+                        }
+                        composable(route = "complete") {
+                            CompletePerfil(navController)
+                        }
+                        composable(route = "preferences") {
+                            PreferencesScreen(navController)
                         }
                     }
                 }
@@ -42,10 +60,11 @@ class MainActivity : ComponentActivity() {
     }
 }
 
-    @Preview(showBackground = true, showSystemUi = true)
-        @Composable
-        fun GreetingPreview() {
-            MentorMatchingTheme {
-                HomePageScreen(navController = rememberNavController())
-            }
-        }
+
+@Preview(showBackground = true, showSystemUi = true)
+@Composable
+fun GreetingPreview() {
+    MentorMatchingTheme {
+        LoginScreen(navController = rememberNavController())
+    }
+}

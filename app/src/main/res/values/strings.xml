@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">MentorMatching</string>
+    <string name="login">Login</string>
+    <string name="email">Email Adress</string>
+    <string name="password">Type your password</string>
+    <string name="signUp">Click here to signUp!</string>
+
+    <string name="name">Name</string>
+    <string name="OcupationArea">Type Mentee ou Mentor</string>
+    <string name="Confirmpassword">Confirm your password</string>
+
+    <string name="Register">Register</string>
+
+    <string name="already"> Already have an account? </string>
+
 </resources>
