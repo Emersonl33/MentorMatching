@@ -1,16 +1,93 @@
 <resources>
-    <string name="app_name">MentorMatching</string>
-    <string name="login">Login</string>
-    <string name="email">Email Adress</string>
-    <string name="password">Type your password</string>
-    <string name="signUp">Click here to signUp!</string>
-
     <string name="name">Name</string>
     <string name="OcupationArea">Type Mentee ou Mentor</string>
-    <string name="Confirmpassword">Confirm your password</string>
 
-    <string name="Register">Register</string>
+    <string name="app_name">Mentor Matching</string>
 
-    <string name="already"> Already have an account? </string>
+    <!--HomePageScreen.kt-->
+    <string name="welcome">Welcome,</string>
+    <string name="age">Age</string>
+    <string name="location">Location</string>
+    <string name="educationLevel">Education Level</string>
+    <string name="atuationArea">Atuation Area</string>
+    <string name="atuationType">Actuation Type</string>
+    <string name="interestArea">Interest Area</string>
+    <string name="feedbackActivities">FEEDBACKS AND ACTIVITIES</string>
+    <string name="possibleMatches">POSSIBLY MATCHES WITH YOU</string>
+    <string name="mentorName">Mentor Name</string>
+
+    <!--LoginScreen.kt-->
+    <string name="email">E-mail Adress</string>
+    <string name="password">Type your password</string>
+    <string name="signUp">"CLICK HERE to sign up"</string>
+    <string name="loginIcon">Login Icon</string>
+    <string name="loginButton">LOGIN</string>
+    <string name="loginError">Login failed. Try again.</string>
+
+    <!--RegisterScreen.kt-->
+    <string name="typeEmail">Type your e-mail</string>
+    <string name="confirmpassword">Confirm your password</string>
+    <string name="completeFields">Please, complete all fields</string>
+    <string name="register">REGISTER</string>
+    <string name="already">Already have an account?</string>
+
+    <!--ProfileScreen.kt-->
+    <string name="personal">PERSONAL</string>
+    <string name="fullName">Full Name</string>
+    <string name="typeFullName">Type your full Name</string>
+    <string name="typeAge">Type your age</string>
+    <string name="mentoringPreferences">MENTORING PREFERENCES</string>
+    <string name="userType">User Type</string>
+    <string name="saveButton">SAVE</string>
+
+    <string name="highSchool">High School</string>
+    <string name="graduation">Graduation</string>
+    <string name="specialization">Specialization</string>
+    <string name="masterDegree">Master Degree</string>
+    <string name="doctorateDegree">Doctorate Degree</string>
+
+    <string name="administration">"Administration"</string>
+    <string name="art">"Art"</string>
+    <string name="astronomy">"Astronomy"</string>
+    <string name="biology">"Biology"</string>
+    <string name="computing">"Computing"</string>
+    <string name="economy">"Economy"</string>
+    <string name="education">"Education"</string>
+    <string name="civilEngineering">"Civil Engineering"</string>
+    <string name="electricalEngineering">"Electrical engineering"</string>
+    <string name="mechanicalEngineering">"Mechanical Engineering"</string>
+    <string name="philosophy">"Philosophy"</string>
+    <string name="physical">"Physical"</string>
+    <string name="languages">"Languages"</string>
+    <string name="literature">"Literature"</string>
+    <string name="mathematics">"Mathematics"</string>
+    <string name="medicine">"Medicine"</string>
+    <string name="nutrition">"Nutrition"</string>
+    <string name="psychology">"Psychology"</string>
+    <string name="chemical">"Chemical"</string>
+    <string name="sociology">"Sociology"</string>
+
+    <string name="academic">"Academic"</string>
+    <string name="corporate">"Corporate"</string>
+    <string name="entrepreneur">"Entrepreneur"</string>
+
+    <string name="mentor">"Mentor"</string>
+    <string name="mentee">"Mentee"</string>
+
+    <!--MessagesScreen.kt-->
+    <string name="messages">"MESSAGENS"</string>
+    <string name="comingSoon">"COMING SOON!"</string>
+    <string name="homePage">"HOME PAGE"</string>
+
+    <!--SettinsScreen.kt-->
+    <string name="settings">"SETTINGS"</string>
+    <string name="logOut">"LOGOUT"</string>
+
+    <!--MatchScreen.kt-->
+    <string name="match">"MATCH"</string>
+    <string name="itsMatch">"It's a Match!"</string>
+
+    <!--FindMentorScreen.kt-->
+    <string name="advancedSearch">"ADVANCED SEARCH"</string>
 
 </resources>

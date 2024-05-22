@@ -1,17 +1,93 @@
 <resources>
-    <string name="app_name">MentorMatching</string>
-    <string name="login">Entrar</string>
-    <string name="email">Endereço de Email</string>
-    <string name="password">Digite sua senha</string>
-    <string name="signUp">Clique aqui para abrir sua conta!</string>
-
     <string name="name">Nome</string>
     <string name="OcupationArea">Digite Mentor ou Mentorado</string>
-    <string name="Confirmpassword">Confirme sua senha</string>
 
-    <string name="Register">Registrar</string>
+    <string name="app_name">Mentor Matching</string>
 
-    <string name="already"> Já possui uma conta? </string>
+    <!--HomePageScreen.kt-->
+    <string name="welcome">Bem vind@,</string>
+    <string name="age">Idade</string>
+    <string name="location">Localização</string>
+    <string name="educationLevel">Educação</string>
+    <string name="atuationArea">Área de Atuação</string>
+    <string name="atuationType">Tipo de Atuação</string>
+    <string name="interestArea">Interesse</string>
+    <string name="feedbackActivities">FEEDBACKS E ATIVIDADES</string>
+    <string name="possibleMatches">POSSIVELMENTE É UM MATCH</string>
+    <string name="mentorName">Nome do Mentor</string>
 
+    <!--LoginScreen.kt-->
+    <string name="email">Endereço de e-mail</string>
+    <string name="password">Digite sua senha</string>
+    <string name="signUp">CLIQUE AQUI para abrir sua conta</string>
+    <string name="loginIcon">Icone de Login</string>
+    <string name="loginButton">ENTRAR</string>
+    <string name="loginError">Erro ao fazer login. Tente novamente.</string>
+
+    <!--RegisterScreen.kt-->
+    <string name="typeEmail">Digite seu e-mail</string>
+    <string name="confirmpassword">Confirme sua senha</string>
+    <string name="completeFields">Por favor, preencha todos os campos</string>
+    <string name="register">REGISTRAR</string>
+    <string name="already">Já possui uma conta?</string>
+
+    <!--ProfileScreen.kt-->
+    <string name="personal">DADOS PESSOAIS</string>
+    <string name="fullName">Nome completo</string>
+    <string name="typeFullName">Digite seu nome completo</string>
+    <string name="typeAge">Digite sua idade</string>
+    <string name="mentoringPreferences">PREFERÊNCIAS DE MENTORIA</string>
+    <string name="userType">Tipo de Usuário</string>
+    <string name="saveButton">SALVAR</string>
+
+    <string name="highSchool">Ensino Médio</string>
+    <string name="graduation">Graduação</string>
+    <string name="specialization">Especialização</string>
+    <string name="masterDegree">Mestrado</string>
+    <string name="doctorateDegree">Doutorado</string>
+
+    <string name="administration">"Administração"</string>
+    <string name="art">"Arte"</string>
+    <string name="astronomy">"Astronomia"</string>
+    <string name="biology">"Biologia"</string>
+    <string name="computing">"Computação"</string>
+    <string name="economy">"Economia"</string>
+    <string name="education">"Educação"</string>
+    <string name="civilEngineering">"Engenharia Civil"</string>
+    <string name="electricalEngineering">"Engenharia Elétrica"</string>
+    <string name="mechanicalEngineering">"Engenharia Mecânica"</string>
+    <string name="philosophy">"Filosofia"</string>
+    <string name="physical">"Física"</string>
+    <string name="languages">"Idiomas"</string>
+    <string name="literature">"Literarura"</string>
+    <string name="mathematics">"Matemática"</string>
+    <string name="medicine">"Medicina"</string>
+    <string name="nutrition">"Nutrição"</string>
+    <string name="psychology">"Psicologia"</string>
+    <string name="chemical">"Química"</string>
+    <string name="sociology">"Sociologia"</string>
+
+    <string name="academic">"Academica"</string>
+    <string name="corporate">"Coorporativa"</string>
+    <string name="entrepreneur">"Empreendedora"</string>
+
+    <string name="mentor">"Mentor"</string>
+    <string name="mentee">"Mentorado"</string>
+
+    <!--MessagesScreen.kt-->
+    <string name="messages">"MENSAGENS"</string>
+    <string name="comingSoon">"EM BREVE!"</string>
+    <string name="homePage">"PÁGINA INICIAL"</string>
+
+    <!--SettinsScreen.kt-->
+    <string name="settings">"CONFIGURAÇÕES"</string>
+    <string name="logOut">"SAIR"</string>
+
+    <!--MatchScreen.kt-->
+    <string name="match">"MATCH"</string>
+    <string name="itsMatch">"É um Match!"</string>
+
+    <!--FindMentorScreen.kt-->
+    <string name="advancedSearch">"BUSCA AVANÇADA"</string>
 
 </resources>
